@@ -201,7 +201,7 @@ textarea{
         width: 100%;
     }
 
-    .center-gallery{
+    /* .center-gallery{
         display: block;
         width: 80%;
         margin: 0 30px;
@@ -210,7 +210,8 @@ textarea{
     .icontainer {
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
+    
     /* I had trouble centering the images in the gallery and nav bar */
     
 }

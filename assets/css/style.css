@@ -175,7 +175,8 @@ textarea{
     }
 
     
-}@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
 
     .content{
         width: 94%;
@@ -184,6 +185,7 @@ textarea{
 }
 
 @media screen and (max-width: 640px) {
+    
     #inbanner {
         margin: 0 auto;
     }
@@ -211,7 +213,7 @@ textarea{
         margin-left: auto;
         margin-right: auto;
     } */
-    
+
     /* I had trouble centering the images in the gallery and nav bar */
     
 }

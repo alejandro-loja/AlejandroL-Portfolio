@@ -71,19 +71,19 @@ li {
 .line{
     padding: 28px 0px;
 }
-a {
+.alink {
     color: #666666;
     display: inline-block;
     padding: 28px 10px;
     text-decoration: none;
 }
 
-a:hover {
+.alink:hover {
     background-color: #ccc;
     color: #fff;
 }
 
-a:active{
+.alink:active{
     background-color: #ddd;
 }
 

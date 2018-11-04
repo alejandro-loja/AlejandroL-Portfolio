@@ -15,6 +15,9 @@ body {
     clear: both;
     display: table;
 }
+strong {
+    font-weight: bold;
+}
 
 header, h2 { 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -46,15 +49,6 @@ header {
     width: 960px;
     margin: 0 auto;
 }
-.content{
-    box-sizing: border-box;
-    width: 960px;
-    background-color: rgb(255, 255, 255);
-    padding: 30px 30px;
-    
-    margin: 0 auto 110px auto;
-    border: 1px solid rgb(221,221,221);
-}
 ul {
     list-style: none;
     float: right;
@@ -77,6 +71,19 @@ li {
     padding: 28px 10px;
     text-decoration: none;
 }
+.content{
+    box-sizing: border-box;
+    width: 960px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px;
+    margin: 0 auto 110px auto;
+    border: 2px solid rgb(221,221,221);
+
+}
+.image-row{
+    border: 2px solid red;
+    text-align: center;
+}
 
 .alink:hover {
     background-color: #ccc;
@@ -86,14 +93,12 @@ li {
 .alink:active{
     background-color: #ddd;
 }
-
-img {
-    float: left;
-    margin-right: 25px;
-}
 .profile-pic {
+    float: left;
     width: 150px;
     height: 150px;
+    margin: 0 20px 5px 0;
+    border: 1px solid #ccc;
 }
 
 footer {
@@ -130,21 +135,19 @@ textarea{
 
 .icontainer {
     box-sizing: border-box;
-    float: left;
     position: relative;
-    text-align: center;
+    display: inline-block;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: white;
     width: 275px;
     height: 205px;
-    margin: 0 40px 60px 0;
+    margin: 10px;
     font-size: 20px;
-     
+    opacity: 0.7;
 }
  .gallery-img{
      width: 100%;
      height: 100%;
-     opacity: 0.7;
  }
 
 .gallery-img-label{ 
@@ -156,11 +159,16 @@ textarea{
     height: 28%;
     background-color: #4aaaa5;
 }
+ .center-gallery{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
 
-.gallery-img:hover{
+.icontainer:hover{
     opacity: 1.0;
 }
-.gallery-img:active{
+.icontainer:active{
     opacity: 0.9;
 }
 
@@ -202,18 +210,5 @@ textarea{
         box-sizing: border-box;
         width: 100%;
     }
-
-    /* .center-gallery{
-        display: block;
-        width: 80%;
-        margin: 0 30px;
-        text-align: center;
-    }
-    .icontainer {
-        margin-left: auto;
-        margin-right: auto;
-    } */
-
-    /* I had trouble centering the images in the gallery and nav bar */
     
 }

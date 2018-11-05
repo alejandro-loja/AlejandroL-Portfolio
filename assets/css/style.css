@@ -143,7 +143,8 @@ textarea{
     height: 205px;
     margin: 10px;
     font-size: 20px;
-    opacity: 0.7;
+    opacity: 0.8;
+    border: 2px solid #ccc;
 }
  .gallery-img{
      width: 100%;
